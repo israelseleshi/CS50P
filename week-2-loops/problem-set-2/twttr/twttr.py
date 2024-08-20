@@ -6,7 +6,7 @@ def main():
 def omit_vowel(text):
   output = ""
   for t in text:
-    if t in ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u', ]:
+    if t in ['A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u']:
       continue
     else:
       output = output + t
